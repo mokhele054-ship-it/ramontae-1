@@ -206,6 +206,10 @@ section {
     gap: 1rem;
 }
 
+.education-date {
+    display: block;
+}
+
 /* ICONS */
 
 .icon {
@@ -283,6 +287,13 @@ section {
 .about-containers, 
 .about-details-container {
     display: flex;
+    
+}
+
+.exp-about-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
 }
 
 .about-pic {
@@ -303,8 +314,26 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+}
+
+.details-container:hover {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    background: rgb(50, 50, 50, 0.15);
+    
 
 }
+
+
+.details-container li {
+    text-align: left;
+}
+
 
 .section-container {
     gap: 4rem;
@@ -323,10 +352,10 @@ section {
 }
 
 .experience-sub-title {
-    color: rgb(185, 185, 185);
+    
     font-weight: 600;
     font-size: 1.75rem;
-    margin-bottom: 2rem;
+    
 }
 
 .experience-details-container {
@@ -336,24 +365,37 @@ section {
     gap: 2.5rem;
 }
 
+.exp-title {
+    display: flex;
+    flex-direction: column;
+}
+
 .article-container {
     display: flex;
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+
+.article-container li {
+    line-height: 1.6;
 }
 
 article {
     display: flex;
-    width: 10rem;
+    width: auto;
     justify-content: space-around;
     gap: 0.5rem;
 }
 
 article .icon {
     cursor: default;
+}
+
+.article-container li {
+    text-align: left;
 }
 
 /* PROJECTS */
