@@ -9,20 +9,19 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Mokhele Ramonate</div>
+        
         <div>
             <ul class="nav-links">
-                <li><a href="#about">About Me</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>                
+                
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">
-            <h1>Mo logo</h1>
-        </div>
+        
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -31,7 +30,7 @@
                 
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#education" onclick="toggleMenu()">About Me</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -58,9 +57,9 @@
             </div>
         </div>
     </section>
-    <section id="about">
-        <p class="section__text__p1">Get to know more</p>
-        <h1>Education</h1>
+    <section id="education">
+        
+        <h1 class="title">Education</h1>
         <div class="section-container">
         <!-- <div class="section__pic-container">
                 <img src="./assets/about-pic.png" alt="profile picture" class="about-pic" style="display: none;"
@@ -135,24 +134,27 @@
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"
         />
     </section>
-    <section>
+    <section id="experience">
         <div class="exp-title">
-            <h1>Experience</h1>
+            <h1 class="title">Work Experience</h1>
         </div>
         <div class="experience-details-container">
             <div class="exp-about-containers">
                 <div class="details-container">
                     <h2 class="experience-sub-title">VML South Africa</h2>
-                 <!--<img src="assets/location.png" alt="">-->   
+                
                     <p>Role: <b>Support Consultant</b><br>Duration: February 2018 - to date</p>
                     
                     <div class="article-container">
                         <article>
                             
                             <div>
+                                <h3>
+                                    Duties:
+                                </h3>
                                 <ul>
                                     <li>
-                                        <b>Email Developer</b> - HTML & CSS emailer coding (for <b>Ford</b> and <b>ABSA</b>)
+                                        <b>Email Developer</b> - coding emailers with HTML & CSS (for <b>Ford</b> and <b>ABSA</b>)
                                     </li>
                                     <li>
                                         <b>CMS Adminitrator</b> - Drupal CMS (for <b>Nando's</b>): updating banners, T&Cs, menu product prices and recipes, scheduling push notifications (on Firebase), adding/removing stores, populating new pages, FAQs
@@ -170,13 +172,13 @@
                                         <b>Content Editor</b> - Magento CMS (for <b>Vuse</b> + <b>Velo</b> & <b>Glo</b>): building blog pages
                                     </li>
                                     <li>
-                                        <b>Content Editor</b> - Wix site builder (for <b>Woodstockgin</b>) : web page edits
+                                        <b>Content Editor</b> - Wix site builder (for <b>Woodstockgin</b>): web page edits
                                     </li>
                                     <li>
-                                        <b>Content Editor</b> - Drupal CMS (for <b>Renault</b>): Populating web pages
+                                        <b>Content Editor</b> - Drupal CMS (for <b>Renault</b>): Populating web pages for a site rebuild
                                     </li>
                                     <li>
-                                        24/7 on-call <b>tech support</b> + general admin: reporting bugs to relevant person. Document site health status, store passwords, submit forms for server changes
+                                        24/7 on-call <b>tech support</b> + general admin: reporting bugs to relevant person. Documenting site health status, store passwords, submit forms for server changes
                                     </li>
                                     <li>
                                         <b>QA/Tester</b>: Manual testing
@@ -196,6 +198,9 @@
                         <article>
                             
                             <div>
+                                <h3>
+                                    Duties:
+                                </h3>
                                 <ul>
                                     <li>
                                         Telephone <b>support</b>
@@ -207,7 +212,7 @@
                                         Call clients for activation codes and <b>software training</b>.
                                     </li>
                                     <li>
-                                        General admin work i. e logging queries and <b>storing passwords</b>.
+                                        General <b>admin work</b> i. e logging queries and <b>storing passwords</b>.
                                     </li>
                                     <li>
                                         remotely <b>giving access</b> to the disk software
@@ -228,6 +233,9 @@
                         <article>
                           
                             <div>
+                                <h3>
+                                    Duties:
+                                </h3>
                                 <ul>
                                     <li>
                                         <b>Teller</b>: Facilitating cash transactions. 
@@ -252,123 +260,12 @@
     </section>
 
 
-    <section id="experience" style="display: none;">
-        <p class="section__text__p1">Explore my</p>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">VML South Africa</h2>
-                    <div class="article-container">
-                        <article>
-                            
-                            <div>
-                                <ul>
-                                    <li>
-                                        Email Developer - HTML & CSS emailer coding (for Ford and ABSA)
-                                    </li>
-                                    <li>
-                                        CMS Adminitrator - Drupal CMS (for Nando's): updating banners, T&Cs, menu product prices and recipes, scheduling push notifications (on Firebase), adding/removing stores, populating new pages, FAQs
-                                    </li>
-                                    <li>
-                                        Content Editor - Contentful CMS (for USA Nando's): updating stores for SEO purposes
-                                    </li>
-                                    <li>
-                                        Content Editor - Citrix CMS (for Vodacom): populating e-pamphlets
-                                    </li>
-                                    <li>
-                                        Content Editor - Salesforce (for Vuse & Velo): building emailers
-                                    </li>
-                                    <li>
-                                        Content Editor - Magento CMS (for Vuse & Velo & Glo): building blog pages
-                                    </li>
-                                    <li>
-                                        Content Editor - Wix site builder (for Woodstockgin) : web page edits
-                                    </li>
-                                    <li>
-                                        Content Editor - Drupal CMS (for Renault): Populating web pages
-                                    </li>
-                                    <li>
-                                        24/7 on-call tech support + general admin: reporting bugs to relevant person. Document site health status, store passwords, submit forms for server changes
-                                    </li>
-                                    <li>
-                                        QA/Tester: Manual testing
-                                    </li>
-                                </ul> 
-                            </div>
-                        </article>
-
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Ezee-Dex Procurement Services</h2>
-                    <div class="article-container">
-                        <article>
-                            
-                            <div>
-                                <ul>
-                                    <li>
-                                        On-call support
-                                    </li>
-                                    <li>
-                                        Posting disks to client + following up
-                                    </li>
-                                    <li>
-                                        Call clients for activation codes and software training.
-                                    </li>
-                                    <li>
-                                        General admin work i. e logging queries and storing passwords.
-                                    </li>
-                                    <li>
-                                        remotely giving access to the disk software
-                                    </li>
-                                    
-                                </ul> 
-                            </div>
-                        </article>
-
-                                       
-                    </div>
-                </div>
-
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Truworths</h2>
-                    <div class="article-container">
-                        <article>
-                          
-                            <div>
-                                <ul>
-                                    <li>
-                                        Teller: Facilitating cash transactions. 
-                                    </li>
-                                    <li>
-                                        Store tidying up
-                                    </li>
-                                    <li>
-                                        in-store customer support
-                                    </li>
-                                    
-                                    
-                                </ul> 
-                            </div>
-                        </article>  
-
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"
-        />
-    </section>
+   
     <section id="projects">
         <h1 class="title">Projects</h1>
         <div class="experience-details-container">
-            <div class="details-container color-container">
-                <div class="article-container">
+            <div class="pr-details-container color-container">
+                <div class="pr-article-container">
                     <img src="./assets/project-1.png" alt="Project 1" class="project-img">
                 </div>
                 <h2 class="sperience-sub-title project-title">Project One</h2>
@@ -382,11 +279,11 @@
                     </button>
                 </div>
             </div>
-            <div class="details-container color-container">
-                <div class="article-container">
+            <div class="pr-details-container color-container">
+                <div class="pr-article-container">
                     <img src="./assets/project-2.png" alt="Project 2" class="project-img">
                 </div>
-                <h2 class="sperience-sub-title project-title">Project Two</h2>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https//github.com/'">
                         Github
@@ -397,8 +294,8 @@
                     </button>
                 </div>
             </div>
-            <div class="details-container color-container">
-                <div class="article-container">
+            <div class="pr-details-container color-container">
+                <div class="pr-article-container">
                     <img src="./assets/project-3.png" alt="Project 3" class="project-img">
                 </div>
                 <h2 class="sperience-sub-title project-title">Project Three</h2>

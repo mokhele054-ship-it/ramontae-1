@@ -59,10 +59,7 @@ a:hover {
     text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-    width: 250px;
 
-}
 
 .logo:hover {
     cursor: default;
@@ -307,6 +304,19 @@ section {
 }
 
 .details-container {
+    
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    
+}
+
+.pr-details-container {
+    
     padding: 1.5rem;
     flex: 1;
     background: white;
@@ -379,6 +389,18 @@ section {
     padding-top: 1.5rem;
 }
 
+.pr-article-container  {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    padding-top: 1.5rem;
+    max-width: 450px;
+    text-align: center;
+    
+}
+
 .article-container li {
     line-height: 1.6;
 }
@@ -394,8 +416,8 @@ article .icon {
     cursor: default;
 }
 
-.article-container li {
-    text-align: left;
+.article-container h3 {
+    font-weight: 700;
 }
 
 /* PROJECTS */
@@ -413,6 +435,7 @@ article .icon {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
+    text-align: center;
 }
 
 .project-title {
