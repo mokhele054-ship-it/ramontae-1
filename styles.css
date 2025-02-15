@@ -297,7 +297,7 @@ section {
     border-radius: 2rem;
 }
 
-.icon arrow {
+.icon-arrow {
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
@@ -313,6 +313,10 @@ section {
     border-color: rgb(163, 163, 163);
     text-align: center;
     
+}
+
+.details-container a {
+    text-decoration: underline;
 }
 
 .pr-details-container {
@@ -335,6 +339,7 @@ section {
     border-color: rgb(163, 163, 163);
     text-align: center;
     background: rgb(50, 50, 50, 0.15);
+    text-decoration: none;
     
 
 }
@@ -402,7 +407,7 @@ section {
 }
 
 .article-container li {
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 article {
