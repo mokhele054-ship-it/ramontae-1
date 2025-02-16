@@ -187,8 +187,9 @@ section {
 }
 
 .section__text__p2 {
-    font-size: 1.75rem;
+    font-size: 1.45rem;
     margin-bottom: 1rem;
+    line-height: 1.4;
 }
 
 .title {
@@ -279,6 +280,7 @@ section {
 .about-details-container {
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .about-containers, 
