@@ -210,8 +210,9 @@ section {
     line-height: 1.2;
 }
 .education-date li {
-    line-height: 1.4;
+    line-height: 1.5;
 }
+
 
 /* ICONS */
 
@@ -320,6 +321,7 @@ section {
     border-color: rgb(163, 163, 163);
     text-align: center;
     
+    
 }
 
 .details-container a {
@@ -385,7 +387,10 @@ section {
     justify-content: center;
     flex-direction: row;
     gap: 2.5rem;
+    padding-bottom: 1rem;
 }
+
+
 
 .skills-details-container {
     display: flex;
@@ -418,6 +423,10 @@ section {
     max-width: 450px;
     text-align: center;
     
+}
+
+.pr-article-container img {
+    align-items: center;
 }
 
 .article-container li {
